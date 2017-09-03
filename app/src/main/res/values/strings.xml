@@ -1,3 +1,5 @@
 <resources>
      <string name="app_name">Lifecycle</string>
+     <string name="MainToMain2">MainActivity跳转到Main2Activity</string>
+     <string name="MainRunBtn">在MainActivity点击"最近运行记录"</string>
 </resources>

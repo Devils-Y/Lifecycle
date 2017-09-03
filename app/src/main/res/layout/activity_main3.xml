@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
      xmlns:android="http://schemas.android.com/apk/res/android"
      xmlns:app="http://schemas.android.com/apk/res-auto"
      xmlns:tools="http://schemas.android.com/tools"
      android:layout_width="match_parent"
      android:layout_height="match_parent"
-     android:orientation="vertical"
      android:background="#FFF"
-     tools:context="com.hy.lifecycle.MainActivity">
+     tools:context="com.hy.lifecycle.Main3Activity">
 
      <Button
           android:id="@+id/backBtn"
@@ -15,24 +14,24 @@
           android:layout_height="wrap_content"
           android:text="BACK"/>
 
-     <Button
-          android:id="@+id/toBtn"
+     <LinearLayout
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:text="新页面"/>
+          android:layout_centerInParent="true"
+          android:orientation="vertical">
 
-     <RelativeLayout
-          android:layout_width="match_parent"
-          android:layout_height="match_parent">
+          <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="点击' 最近运行 '按钮查看生命周期"/>
 
           <TextView
                android:id="@+id/text"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="Hello World!"
-               android:layout_centerInParent="true"
                android:layout_gravity="center"/>
 
-     </RelativeLayout>
+     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>
