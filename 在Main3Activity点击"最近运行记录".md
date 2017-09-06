@@ -1,4 +1,4 @@
-    进入MainActivity时,生命周期执行顺序为:
+    进入Main3Activity时,生命周期执行顺序为:
 
 onCreate(MainActivity)
 

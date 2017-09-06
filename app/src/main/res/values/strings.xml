@@ -1,5 +1,6 @@
 <resources>
      <string name="app_name">Lifecycle</string>
      <string name="MainToMain2">MainActivity跳转到Main2Activity</string>
-     <string name="MainRunBtn">在MainActivity点击"最近运行记录"</string>
+     <string name="Main3RunBtn">在Main3Activity点击"最近运行记录"</string>
+     <string name="Main4FragmentBtn">在Main4Activity中查看fragment的生命周期</string>
 </resources>
